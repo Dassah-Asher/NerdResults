@@ -45,11 +45,9 @@ const resultsSchema=mongoose.Schema({
     teacherRemarks:{
         type:String,
         required:true
-    },
-
-   announcement: {
-     type:String
     }
+
+   
 });
 
 const Result=mongoose.model("Result",resultsSchema);
